@@ -1,1 +1,18 @@
 /* your code */
+table{
+	width:100%;
+	border-collapse:collapse;
+	text-align:left;
+	border:1px solid black;
+	border-radius:10px;
+	overflow:hidden;
+}
+thead{
+	background-color:skyblue;	
+}
+tr:nth-child(even){
+	background-color:lightgray;
+}
+td,th{
+	padding:5px;
+}
